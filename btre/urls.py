@@ -25,4 +25,4 @@ urlpatterns = [
     path('', include('pages.urls')),
     path('listings/', include('listings.urls')),
 
-] + static(settings.MEDIA_URL, documen_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
